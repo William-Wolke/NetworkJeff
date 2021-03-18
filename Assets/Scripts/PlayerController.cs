@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour {
     [SerializeField]
     Transform bulletSpawnPoint;
 
-    float timeBetweenShots = 0.5f;
+    float timeBetweenShots = 0.05f;
     float timeSinceLastShot = 0f;
 	
 	void Update () {
